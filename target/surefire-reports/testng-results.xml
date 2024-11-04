@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-03T09:54:28 IST" name="Suite" finished-at="2024-11-03T09:54:28 IST" duration-ms="98">
+  <suite started-at="2024-11-04T08:25:20 IST" name="Suite" finished-at="2024-11-04T08:25:54 IST" duration-ms="33220">
     <groups>
     </groups>
-    <test started-at="2024-11-03T09:54:28 IST" name="Test" finished-at="2024-11-03T09:54:28 IST" duration-ms="98">
-      <class name="TestClass.testpage">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="beforeSuite" finished-at="2024-11-03T09:54:28 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="beforeTest" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="beforeClass" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="beforeMethod" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testCase1()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="testCase1" finished-at="2024-11-03T09:54:28 IST" duration-ms="2" status="PASS">
+    <test started-at="2024-11-04T08:25:20 IST" name="Test" finished-at="2024-11-04T08:25:54 IST" duration-ms="33220">
+      <class name="TestClass.LoginTestClass">
+        <test-method signature="testCase1()[pri:0, instance:TestClass.LoginTestClass@56de5251]" started-at="2024-11-04T08:25:20 IST" name="testCase1" finished-at="2024-11-04T08:25:54 IST" duration-ms="33138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="afterMethod" finished-at="2024-11-03T09:54:28 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testCase2()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="testCase2" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="beforeMethod" finished-at="2024-11-03T09:54:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="afterMethod" finished-at="2024-11-03T09:54:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="afterClass" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="afterTest" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestClass.testpage@3a079870]" started-at="2024-11-03T09:54:28 IST" name="afterSuite" finished-at="2024-11-03T09:54:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- TestClass.testpage -->
+      </class> <!-- TestClass.LoginTestClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
