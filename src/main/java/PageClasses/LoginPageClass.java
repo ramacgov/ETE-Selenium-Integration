@@ -6,10 +6,22 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPageClass {
-	WebDriver driver;
+	private WebDriver driver;
 	
-	@FindBy(id="User-name")
-	WebElement username;
+	@FindBy(id="user-name")
+	private WebElement username;
+	
+	@FindBy(id="password")
+	private WebElement pwd;
+	
+	@FindBy(id="login-button")
+	private WebElement loginbutton;
+	
+	@FindBy(id="react-burger-menu-btn")
+	private WebElement MenuItem;
+	
+	@FindBy(id="logout_sidebar_link")
+	private WebElement LogOut;
 	
 	public LoginPageClass(WebDriver driver)
 	{
@@ -23,4 +35,28 @@ public class LoginPageClass {
 
     	username.sendKeys(strUserName);   	  
     }
+    
+  //Set user name in textbox
+
+    public void setPassword(String strpassword){
+
+    	pwd.sendKeys(strpassword);   	  
+    }
+    
+    public void Clickbutton(){
+
+    	loginbutton.click(); 	  
+    }
+    
+    public void Menuclick(){
+
+    	MenuItem.click(); 	  
+    }
+        
+    public void Logout(){
+
+    	LogOut.click(); 	  
+    }
+    
+    
 }

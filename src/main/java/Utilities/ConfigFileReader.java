@@ -9,7 +9,7 @@ import java.util.Properties;
 public class ConfigFileReader {
 	
 	private Properties properties;
-	String propertyFilePath= "C:\\Users\\dell\\Hybrid Framework\\Framework\\src\\main\\resources\\Configs\\Configuration.properties";
+	String propertyFilePath= "C:\\Users\\dell\\Hybrid Framework\\ETEIntegration\\src\\main\\resources\\Configs\\Configuration.properties";
 		
 	public ConfigFileReader()
 	{
